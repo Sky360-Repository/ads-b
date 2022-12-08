@@ -21,7 +21,7 @@ make RTLSDR=yes
 
 # dump1090 to start on reboot
 
-edit dump1090.sh and add your local geo coordinates and dump1090-master path
+edit [dump1090.sh](https://github.com/Sky360-Repository/ads-b/blob/main/dump1090.sh) and add your local geo coordinates and dump1090-master path
 ```
 sudo cp dump1090.sh /etc/init.d
 sudo chown root /etc/init.d
